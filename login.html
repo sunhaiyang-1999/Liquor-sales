@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        html, body {
+            font-size: 12px;
+        }
+
+        #box {
+            width: 403px;
+            min-height: 294px;
+            border: 1px solid #CCCCCC;
+            margin: 50px auto;
+            background: url("也买酒图片以及预览地址/img/login_text.gif") no-repeat center 24px;
+        }
+
+        .div1 {
+            width: 326px;
+            margin: 78px auto 0;
+        }
+
+        #inp1, #inp2 {
+            width: 298px;
+            height: 30px;
+            text-indent: 10px;
+            margin-bottom: 16px;
+        }
+
+        #btn {
+            width: 300px;
+            height: 40px;
+            background: #d10000;
+            line-height: 40px;
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            font-weight: bold;
+            outline: none;
+            border: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: red;
+            margin-bottom: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <div class="div1">
+        <input type="text" name="usname" id="inp1" value="" placeholder="请输入手机号"/>
+        <p>请输入正确的手机号</p>
+        <input type="password" name="pwd" id="inp2" value="" placeholder="请输入密码"/><br/><br/>
+        <p class="pwd_error">密码不能为空</p>
+        <input type="checkbox" id="cke"/>自动登录
+        <input id="btn" type="submit" value="登录"/>
+    </div>
+</div>
+
+<script src="js/jquery-1.11.1.js"></script>
+<script src="js/common.js"></script>
+<!--引入md5-->
+<script src="js/utils/md5.js"></script>
+<script src="js/utils/cookie-tools-1.1.js"></script>
+<script>
+    $("#btn").click(function () {
+        if(!/^1[3456789]\d{9}$/.test($("#inp1").val())){
+            $("#inp1").next().show().html("手机号格式错误！");
+            return;
+        } else {
+            $("#inp1").next().hide();
+        }
+
+        if(!/^\w{6,}$/.test($("#inp2").val())) {
+            $(".pwd_error").show().html("密码格式不正确");
+            return;
+        }else{
+            $(".pwd_error").hide();
+            login();
+        }
+
+        function login(){
+            $.ajax({
+                url:apiUrl.login,
+                type:"post",
+                data:{
+                    mobile:$("#inp1").val(),
+                    //这块密码要用MD5加密
+                    password:md5($("#inp2").val())
+                },
+                dataType:"json",
+                success:function (res) {
+                    console.log(md5($("#inp2").val()));
+                    console.log(res);
+                    if (res.code==200){
+                        alert("登录成功！");
+
+                        cookieUtils.addItem({
+                            loginMobile:$("#inp1").val()
+                        });
+
+                        location.href="也买酒项目.html";
+                    }else{
+                        alert("登录失败！")
+                    }
+                }
+            })
+        }
+
+    })
+
+
+</script>
+
+</body>
+</html>

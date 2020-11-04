@@ -1,0 +1,4296 @@
+ul, ol, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, body, html, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*#home > .inner,*/
+#header > .inner, #logoTop > .inner, #nav > .inner, #interest > .inner, .xph, .potCompanion, .interestingness, #appraise > .inner, #Boutique > .inner, #content > .inner, #footer > .fuzhi,.chennian,.wineSet, .liquor, .inner, .xjb {
+    width: 1200px;
+    margin: auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/*---------头部开始*/
+#header {
+    background-color: #ece7e3;
+}
+
+.inner > .top {
+    height: 29px;
+    line-height: 29px;
+    font-size: 12px;
+    color: #85726c;
+}
+
+.inner > .top > .enter {
+    float: left;
+}
+
+.inner > .top > .enter > span {
+    /*font-size: 12px;*/
+    color: #c53f4c;
+    margin-left: 7px;
+}
+
+.inner > .top > .enter > s {
+    height: 12px;
+    width: 1px;
+    background: #a08779;
+    margin-top: 9px;
+    display: inline-block;
+    vertical-align: -2px;
+    /*float: left;*/
+}
+
+.inner > .top > .enter > a {
+    color: #85726c;
+}
+
+/*---------------top 右侧ul开始*/
+.inner > .top > .top_right {
+    float: right;
+}
+
+.inner > .top > .top_right > li {
+    margin: 0 9px 0 7px;
+    display: inline-block;
+    float: left;
+}
+
+.inner > .top > .top_right > li:hover a {
+    color: red;
+}
+
+.inner > .top > .top_right > li > a {
+    color: #85726c;
+}
+
+.inner > .top > .top_right > s {
+    height: 12px;
+    width: 1px;
+    background: #a08779;
+    margin-top: 9px;
+    display: inline-block;
+    vertical-align: -2px;
+    float: left;
+}
+
+.top_right > :nth-child(3) {
+    font-weight: bold;
+}
+
+.top_right > :nth-child(13) {
+    font-weight: bold;
+}
+
+.inner > .top > .top_right > .account > i {
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top: 4px solid #85736d;
+    position: relative;
+    top: 10px;
+    left: 3px;
+    margin-right: 2px;
+}
+
+.inner > .top > .top_right > .shouji > a > em {
+    display: inline-block;
+    width: 12px;
+    height: 15px;
+    background: url("也买酒图片以及预览地址/img/sj.jpg") no-repeat;
+    vertical-align: -3px;
+    margin-right: 3px;
+}
+
+.inner > .top > .top_right > .fuwu > a > i {
+    width: 0;
+    height: 0;
+    border: 4px solid transparent;
+    border-top: 4px solid #85736d;
+    position: relative;
+    top: 10px;
+    left: 3px;
+    margin-right: 2px;
+}
+
+.inner > .top > .top_right > .account > .my_account {
+    /*width: 100px;*/
+    height: 102px;
+    padding-top: 4px;
+    position: absolute;
+    top: 29px;
+    right: 440px;
+    background-color: white;
+    display: none;
+    z-index: 10;
+}
+
+/*--------------------------账户隐藏块----------------*/
+.inner > .top > .top_right > .account:hover .my_account {
+    display: block;
+}
+
+.inner > .top > .top_right > .account > .my_account > li {
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.inner > .top > .top_right > .account > .my_account > li > a {
+    color: #85736d;
+    display: inline-block;
+    padding-left: 8px;
+    height: 25px;
+    width: 92px;
+}
+
+.inner > .top > .top_right > .account > .my_account > li:hover a {
+    background-color: #c53f4c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.inner > .top > .top_right > .account:hover .trigon {
+    display: block;
+}
+
+.inner > .top > .top_right > .account > .trigon {
+    /*display: inline-block;*/
+    width: 16px;
+    height: 16px;
+    background: url("也买酒图片以及预览地址/img/三角上.png") no-repeat;
+    position: absolute;
+    top: 18px;
+    right: 500px;
+    display: none;
+}
+
+/*----------------手机隐藏块----------------------*/
+.inner > .top > .top_right > .shouji > .qrcode {
+    position: absolute;
+    top: 29px;
+    right: 185px;
+    background-color: white;
+    width: 280px;
+    z-index: 11;
+    display: none;
+}
+
+.inner > .top > .top_right > .shouji:hover .qrcode {
+    display: block;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > ins {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("也买酒图片以及预览地址/img/三角上.png") no-repeat;
+    position: absolute;
+    top: -11px;
+    left: 30px;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .qrcode_top {
+    padding-left: 10px;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .qrcode_top > span {
+    color: red;
+    margin-left: 8px;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .zhong > img {
+    margin: 5px 10px;
+    float: left;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .zhong {
+    /*width: 280px;*/
+    height: 120px;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .zhong > .right {
+    float: left;
+    font-weight: bold;
+    width: 148px;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .zhong > .right > a {
+    /*display: inline-block;*/
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .zhong > .right > .right_top {
+    position: absolute;
+    bottom: 6px;
+    right: 15px;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .qrcode_bottom {
+    padding-left: 15px;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .qrcode_bottom > a {
+    color: #0695d9;
+}
+
+.inner > .top > .top_right > .shouji > .qrcode > .qrcode_bottom:hover a {
+    color: blue;
+
+}
+
+/*------------------------------------也买服务隐藏---*/
+.inner > .top > .top_right > .fuwu > .service {
+    width: 160px;
+    position: absolute;
+    right: 149px;
+    height: 110px;
+    background-color: white;
+    display: none;
+}
+
+.inner > .top > .top_right > .fuwu:hover .service {
+    display: block;
+}
+
+.inner > .top > .top_right > .fuwu > .service > ins {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("也买酒图片以及预览地址/img/三角上.png") no-repeat;
+    position: absolute;
+    top: -11px;
+    left: 30px;
+}
+
+.inner > .top > .top_right > .fuwu > .service > .service_ul > li {
+    margin: 0 9px 0 7px;
+    padding: 0 3px;
+    float: left;
+    height: 21px;
+
+}
+
+.inner > .top > .top_right > .fuwu > .service > .service_ul > li > a {
+    color: #85736d;
+}
+
+.inner > .top > .top_right > .fuwu > .service > .service_ul > s {
+    height: 12px;
+    width: 1px;
+    background: #a08779;
+    margin-top: 9px;
+    display: block;
+    float: left;
+}
+
+.inner > .top > .top_right > .fuwu > .service > .service_ul > li:hover a {
+    background-color: #c53f4c;
+    color: white;
+    /*font-weight: bold;*/
+    text-decoration: none;
+}
+
+/*---------------------------中间搜索框  logo开始---------*/
+#logoTop {
+    background-color: #f1eeed;
+}
+
+.inner > .seek {
+    height: 100px;
+}
+
+.inner > .seek > a > img {
+    margin-top: 9px;
+    float: left;
+}
+
+.inner > .seek > .logo {
+    width: 145px;
+    height: 100px;
+    background: url("也买酒图片以及预览地址/img/logo1.png") no-repeat;
+    margin-left: 5px;
+}
+
+.inner > .seek > .search {
+    margin: 30px 0 0 24px;
+    width: 463px;
+    height: 59px;
+    float: left;
+    position: relative;
+}
+
+.inner > .seek > .search > input {
+    width: 376px;
+    padding: 1px 2px 1px 4px;
+    height: 31px;
+    outline: none;
+    border: 1px solid red;
+    background-color: #f1eeed;
+}
+
+.inner > .seek > .search > button {
+    padding: 1px 6px;
+    width: 79px;
+    height: 35px;
+    outline: none;
+    border: 0;
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.inner > .seek > .search > .classify > a {
+    font-size: 12px;
+    color: #a08779;
+    margin-right: 4px;
+}
+
+.inner > .seek > .gwc {
+    width: 123px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    background: url("也买酒图片以及预览地址/img/xbt.png") no-repeat 0 -160px;
+    margin: 30px 0 0 28px;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.inner > .seek > .gwc > .gwc_hide {
+    width: 322px;
+    height: 52px;
+    line-height: 52px;
+    font-size: 14px;
+    text-align: center;
+    color: #333333;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: -53px;
+    display: none;
+    z-index: 9;
+}
+
+.inner > .seek > .gwc > .gwc_hide > a {
+    color: #c53f4c;
+    font-weight: bold;
+    z-index: 9;
+}
+
+.inner > .seek > .gwc:hover {
+    background: url("也买酒图片以及预览地址/img/xbt.png") no-repeat 0 -195px;
+}
+
+.inner > .seek > .gwc:hover .gwc_hide {
+    display: block;
+}
+
+/*---------------------主页部分开始--------*/
+#nav {
+    background-color: #d31618;
+    height: 35px;
+    line-height: 35px;
+}
+
+.inner > .wine {
+    width: 200px;
+    background-color: #a11011;
+    /*padding-left: 7px;*/
+}
+
+.inner > .wine > a {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 20px;
+    margin-left: 8px;
+    text-decoration: none;
+    background: url("也买酒图片以及预览地址/img/xbt.png") no-repeat -180px -164px;
+}
+
+.inner > .left > .current {
+    background-color: #bc0001;
+}
+
+.inner > .left > li:hover {
+    background-color: #bc0001;
+}
+
+.inner > .left > li {
+    float: left;
+    padding: 0 19px;
+}
+
+.inner > .left > li > a {
+    color: white;
+    font-size: 14px;
+}
+
+.inner > .left > .tavern {
+    padding: 0 29px 0 19px;
+    position: relative;
+}
+
+.inner > .left > .tavern > em {
+    width: 23px;
+    height: 11px;
+    position: absolute;
+    background: url("也买酒图片以及预览地址/img/new.png") no-repeat center;
+    left: 62px;
+    top: 5px;
+}
+
+.inner > .left > s {
+    height: 16px;
+    width: 1px;
+    background: rgb(160, 23, 5);
+    margin-top: 9px;
+    display: block;
+    float: left;
+}
+
+/*---------------------------中间轮播图部分----*/
+#home {
+    height: 500px;
+    position: relative;
+}
+
+.major1 {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.major1>li{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+}
+
+.major1 > li:nth-child(1)  {
+    background: url("也买酒图片以及预览地址/img/banner1.jpg") no-repeat center;
+    background-size:100% 100%;
+    opacity: 1;
+    display: block;
+}
+.major1 > li:nth-child(2)  {
+     background: url("也买酒图片以及预览地址/img/banner2.jpg") no-repeat center;
+     background-size:100% 100%;
+     opacity: 0;
+     display: none;
+ }
+.major1 > li:nth-child(3)  {
+    background: url("也买酒图片以及预览地址/img/banner3.jpg") no-repeat center;
+    background-size:100% 100%;
+    opacity: 0;
+    display: none;
+}
+.major1 > li:nth-child(4)  {
+    background: url("也买酒图片以及预览地址/img/banner4.jpg") no-repeat center;
+    background-size:100% 100%;
+    opacity: 0;
+    display: none;
+}
+.major1 > li:nth-child(5)  {
+    background: url("也买酒图片以及预览地址/img/banner5.jpg") no-repeat center;
+    background-size:100% 100%;
+    opacity: 0;
+    display: none;
+}
+.major1 > li:nth-child(6)  {
+    background: url("也买酒图片以及预览地址/img/banner6.jpg") no-repeat center;
+    background-size:100% 100%;
+    opacity: 0;
+    display: none;
+}
+
+/*-----------------------------中间轮播图结束------------*/
+/*-----------------------------小圆点开始-----------*/
+.major2 {
+    position: absolute;
+    bottom: 10px;
+    left: 650px;
+}
+
+.major2 > li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #86685E;
+    margin-right: 5px;
+    cursor: pointer;
+    float: left;
+    color: white;
+}
+
+.major2 > .select {
+    background-color: #d31618;
+}
+
+.major2 > li:hover {
+    background-color: #d31618;
+}
+
+/*---------------------------------------------------*/
+.zhongX > .left {
+    height: 500px;
+    width: 200px;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 10.5%;
+    font-size: 12px;
+}
+
+.zhongX > .left a {
+    color: #666;
+}
+
+.zhongX > .left .red {
+    background: #d3161b;
+    color: #fff;
+    border-radius: 10px;
+    padding: 1px 4px;
+}
+
+.zhongX > .left > .zhongX_list1 > p {
+    height: 24px;
+    line-height: 24px;
+}
+
+.zhongX > .left > .zhongX_list1 > a {
+    line-height: 24px;
+    margin-right: 6px;
+
+}
+
+.zhongX > .left > .zhongX_list2 > p {
+    height: 24px;
+    line-height: 24px;
+}
+
+.zhongX > .left > .zhongX_list2 > p > em {
+    width: 23px;
+    height: 11px;
+    background: url("也买酒图片以及预览地址/img/hot.png") no-repeat center;
+    position: absolute;
+    left: 70px;
+    top: 8px;
+}
+
+.zhongX > .left > .zhongX_list2 > a {
+    line-height: 24px;
+    margin-right: 6px;
+}
+
+.zhongX > .left > .zhongX_list3 > p {
+    height: 24px;
+    line-height: 24px;
+}
+
+.zhongX > .left > .zhongX_list3 > a {
+    line-height: 24px;
+    margin-right: 6px;
+
+}
+
+.zhongX > .left > .zhongX_list4 > p {
+    height: 24px;
+    line-height: 24px;
+}
+
+.zhongX > .left > .zhongX_list4 > a {
+    line-height: 24px;
+    margin-right: 6px;
+}
+
+.zhongX > .left > .zhongX_list5 > p {
+    height: 24px;
+    line-height: 24px;
+}
+
+.zhongX > .left > .zhongX_list5 > a {
+    line-height: 24px;
+    margin-right: 6px;
+}
+
+.zhongX > .left > .zhongX_list6 > p {
+    height: 24px;
+    line-height: 24px;
+}
+
+/*----------------------------------*/
+.zhongX > .left > .zhongX_list1 > p > span {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-left: 6px solid #a78d87;
+    float: right;
+    margin-top: 6px;
+}
+
+.zhongX > .left > .zhongX_list2 > p > span {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-left: 6px solid #a78d87;
+    float: right;
+    margin-top: 6px;
+}
+
+.zhongX > .left > .zhongX_list3 > p > span {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-left: 6px solid #a78d87;
+    float: right;
+    margin-top: 6px;
+}
+
+.zhongX > .left > .zhongX_list4 > p > span {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-left: 6px solid #a78d87;
+    float: right;
+    margin-top: 6px;
+}
+
+.zhongX > .left > .zhongX_list5 > p > span {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-left: 6px solid #a78d87;
+    float: right;
+    margin-top: 6px;
+}
+
+.zhongX > .left > .zhongX_list6 > p > span {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-left: 6px solid #a78d87;
+    float: right;
+    margin-top: 6px;
+}
+
+
+.zhongX > .left > .zhongX_list6 > a {
+    line-height: 24px;
+    margin-right: 6px;
+    color: #666;
+}
+
+.zhongX > .left > .zhongX_list1, .zhongX_list2, .zhongX_list3, .zhongX_list4, .zhongX_list5, .zhongX_list6 {
+    padding: 0 10px;
+    border-bottom: 1px solid #adadad;
+}
+
+.zhongX > .left > a {
+    margin-right: 6px;
+}
+
+
+/*----------------------------*/
+.zhongX > .right {
+    width: 108px;
+    height: 475px;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    right: 165px;
+    margin-top: 11px;
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+.zhongX > .right > img {
+    margin: 20px 20px 0;
+}
+
+.zhongX > .right > p {
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.zhongX > .right > p > a {
+    color: white;
+    font-weight: bold;
+}
+
+.zhongX > .right > ul {
+    margin: 0 auto;
+    border-top: 1px dashed #747474;
+}
+
+.zhongX > .right > ul > li {
+    margin: 18px 0 24px;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 34px;
+}
+
+.zhongX > .right > ul > li > a {
+    color: white;
+}
+
+.zhongX > .right > ul > :nth-child(1) {
+    background: url("也买酒图片以及预览地址/img/tit.png") no-repeat 15px 0;
+}
+
+.zhongX > .right > ul > :nth-child(2) {
+    background: url("也买酒图片以及预览地址/img/tit.png") no-repeat 15px -44px;
+}
+
+.zhongX > .right > ul > :nth-child(3) {
+    background: url("也买酒图片以及预览地址/img/tit.png") no-repeat 15px -83px;
+}
+
+.zhongX > .right > ul > :nth-child(4) {
+    background: url("也买酒图片以及预览地址/img/tit.png") no-repeat 15px -124px;
+}
+
+.zhongX > .right > ul > :nth-child(5) {
+    background: url("也买酒图片以及预览地址/img/tit.png") no-repeat 15px -166px;
+}
+
+#Boutique > .inner {
+    height: 375px;
+    margin: 10px auto;
+}
+
+.inner > .renqi {
+    width: 200px;
+    border: 1px solid #e7e7e7;
+    position: relative;
+    float: left;
+}
+
+.inner > .renqi > img {
+    vertical-align: top;
+}
+
+.inner > .renqi > .Boutique_ul {
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.inner > .renqi > .Boutique_ul > li {
+    float: left;
+    width: 65.5px;
+    text-align: center;
+    /*padding-right: 1px;*/
+    height: 35px;
+    background-color: #e0dbd8;
+    border-right: 1px solid #bfb7aa;
+    border-bottom: 1px solid #bfb7aa;
+}
+
+.inner > .renqi > .Boutique_ul > .Boutique_current {
+    background-color: white;
+    border-bottom: none;
+}
+
+.inner > .renqi > .Boutique_ul > li > a {
+    font-size: 12px;
+    color: #5c483d;
+}
+
+.inner > .renqi > ol {
+    width: 180px;
+    margin: auto;
+    font-size: 12px;
+    display: none;
+}
+
+.inner > .renqi > .show {
+    display: block;
+}
+
+.inner > .renqi > ol > li {
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+}
+
+.inner > .renqi > ol > li > a {
+    color: #888888;
+}
+
+/*-----------------------左边tab栏结束--------------*/
+.inner > .jiulan {
+    float: left;
+    height: 58px;
+    border-bottom: 3px solid #c53f4c;
+    margin-left: 10px;
+}
+
+.inner > .jiulan > li {
+    float: left;
+    width: 195px;
+    height: 58px;
+    background-color: #ffefd5;
+    margin-right: 2px;
+    /*line-height: 58px;*/
+    /*text-align: center;*/
+}
+
+.inner > .jiulan > li:hover {
+    background-color: #d31618;
+    height: 59px;
+}
+
+.inner > .jiulan > li:hover a {
+    color: white;
+}
+
+.inner > .jiulan > li > .jiulan_a1 {
+    width: 195px;
+    display: block;
+    font-size: 22px;
+    color: #333333;
+    margin: 5px 0 0 15px;
+}
+
+.inner > .jiulan > li > .jiulan_a2 {
+    font-size: 12px;
+    color: #73584a;
+    text-align: left;
+    display: block;
+    margin: 3px 0 0 15px;
+}
+
+.inner > .wicket {
+    width: 990px;
+    height: 320px;
+    display: inline-block;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.inner > .wicket > .wicket_ul{
+    /*height: 318px;*/
+    position: relative;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li {
+    width: 191px;
+    height: 309px;
+    /*background-color: #c53f4c;*/
+    border: 1px solid #000;
+    float: left;
+    margin: 9px 0 0 5px;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li > p > em {
+    font-style: normal;
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    background-color: #68865d;
+    line-height: 16px;
+    font-weight: bold;
+    color: #deffd0;
+    text-align: center;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li > p {
+    font-size: 12px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    /*margin-left: 15px;*/
+    background: #f8f8f5 url("也买酒图片以及预览地址/img/sprite.png") no-repeat 0 -90px;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li > .img_box {
+    width: 191px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li > .img_box > img {
+    position: absolute;
+    left: 43px;
+    top: 13px;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li > .qianggou {
+    width: 171px;
+    height: 64px;
+    padding: 10px 10px 5px 10px;
+    background-color: #f8f8f5;
+    font-size: 13px;
+    text-align: center;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li > .qianggou > a {
+    color: #5b473d;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li > .qianggou > p {
+    height: 28px;
+    line-height: 28px;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li > .qianggou > p > i {
+    font-style: normal;
+    font-size: 12px;
+    color: #999999;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor > li > .qianggou > p > em {
+    font-style: normal;
+    font-size: 18px;
+    color: #c53f4c;
+    font-weight: bold;
+}
+
+/*----------------------------------------------------------轮播图隐藏样式------------*/
+.inner > .wicket > .wicket_ul > li > .liquor1 > li {
+    width: 191px;
+    height: 309px;
+    /*background-color: #c53f4c;*/
+    border: 1px solid #000;
+    float: left;
+    margin: 9px 0 0 5px;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor1 > li > .liquor1_img {
+    width: 191px;
+    height: 220px;
+    display: inline-block;
+    position: relative;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor1 > li > .liquor1_img > img {
+    position: absolute;
+    left: 43px;
+    top: 30px;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor1 > li > .liquor1_bottom {
+    height: 60px;
+    padding: 0 18px;
+    position: relative;
+    background-color: #f8f8f5;
+    /*line-height: 65px;*/
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor1 > li > .liquor1_bottom > a {
+    font-size: 12px;
+    color: #666666;
+
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor1 > li > .liquor1_bottom > span {
+    font-size: 14px;
+    color: #c53f4c;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor1 > li > .liquor1_bottom > i {
+    font-style: normal;
+    font-size: 12px;
+    color: #888888;
+}
+
+.inner > .wicket > .wicket_ul > li > .liquor1 > li > p {
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #888888;
+    padding: 0 18px;
+}
+
+/*---------------------------------轮播图结束----*/
+
+
+.inner > .content_top {
+    margin-top: 40px;
+    width: 1199px;
+    height: 40px;
+    border-bottom: 2px solid #d31618;
+}
+
+.inner > .content_top > .content_left {
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 0;
+    display: inline-block;
+    width: 384px;
+    height: 34px;
+}
+
+.inner > .content_top > .content_right {
+    float: right;
+}
+
+.inner > .content_top > .content_right > a {
+    font-size: 12px;
+    color: #888888;
+    margin-top: 12px;
+    display: inline-block;
+    width: 133px;
+    height: 25px;
+}
+
+.inner > .content_top > .content_right > a:hover {
+    color: #d31618;
+}
+
+.inner > .content_top > .content_right > a > i {
+    display: inline-block;
+    background: url("也买酒图片以及预览地址/img/title3.jpg") no-repeat -137px -8px;
+    width: 19px;
+    height: 19px;
+    margin-right: 5px;
+    vertical-align: -5px;
+}
+
+/*----------------------------------------------------------------------------------*/
+.inner > .exclusive_left {
+    float: left;
+    width: 301px;
+    height: 374px;
+    background-color: #edf4f8;
+}
+
+.inner > .exclusive_left > .exclusive_top {
+    width: 255px;
+    height: 23px;
+    background: url("也买酒图片以及预览地址/img/icon222.png") no-repeat;
+    margin: 30px auto 0;
+}
+
+.inner > .exclusive_left > .exclusive_ul {
+    width: 250px;
+    margin: 0 0 0 22px;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li {
+    width: 125px;
+    height: 81px;
+    float: left;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li > a {
+    display: inline-block;
+    width: 115px;
+    height: 45px;
+    font-size: 22px;
+    line-height: 45px;
+    color: #888888;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li:nth-child(1) > a {
+    background: url("也买酒图片以及预览地址/img/icon222.png") no-repeat 0 -23px;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li:nth-child(2) > a {
+    background: url("也买酒图片以及预览地址/img/icon222.png") no-repeat 0 -70px;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li:nth-child(3) > a {
+    background: url("也买酒图片以及预览地址/img/icon222.png") no-repeat 0 -117px;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li:nth-child(4) > a {
+    background: url("也买酒图片以及预览地址/img/icon222.png") no-repeat 0 -165px;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li:nth-child(5) > a {
+    background: url("也买酒图片以及预览地址/img/icon222.png") no-repeat -209px -23px;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li:nth-child(6) > a {
+    background: url("也买酒图片以及预览地址/img/icon222.png") no-repeat -209px -70px;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li:nth-child(7) > a {
+    background: url("也买酒图片以及预览地址/img/icon222.png") no-repeat -209px -117px;
+}
+
+.inner > .exclusive_left > .exclusive_ul > li:nth-child(8) > a {
+    background: url("也买酒图片以及预览地址/img/icon222.png") no-repeat -209px -165px;
+}
+
+.inner > .exclusive_right {
+    height: 374px;
+}
+
+.inner > .exclusive_right > li {
+    width: 298px;
+    height: 186px;
+    float: left;
+    border-right: 1px solid #d31618;
+    border-bottom: 1px solid #d31618;
+    position: relative;
+}
+
+.inner > .exclusive_right > li > img {
+    width: 85px;
+    height: 140px;
+    margin: 20px 5px 20px 5px;
+    display: inline-block;
+    float: left;
+}
+
+.inner > .exclusive_right > li > ol {
+    width: 180px;
+    height: 106px;
+    margin: 20px 15px 0 5px;
+    float: right;
+}
+
+.inner > .exclusive_right > li > ol > li {
+    font-size: 12px;
+}
+
+.inner > .exclusive_right > li > ol > li > a {
+    color: #888888;
+}
+
+.inner > .exclusive_right > li > ol > li > a:hover {
+    color: #d31618;
+}
+
+.inner > .exclusive_right > li > .jiage {
+    position: absolute;
+    bottom: 20px;
+    left: 97px;
+}
+
+.inner > .exclusive_right > li > .jiage > .red {
+    color: #d31618;
+    font-size: 22px;
+}
+
+/*----------------------刚被好评过开始-----------------------------*/
+#appraise > .inner {
+    margin-top: 30px;
+    height: 429px;
+}
+
+.inner > .appraise_left {
+    float: left;
+}
+
+.inner > .appraise_left > .appraise_left_top {
+    width: 600px;
+    height: 34px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 -36px;
+}
+
+.inner > .appraise_left > .appraise_left_box {
+    width: 600px;
+    height: 388px;
+    border-top: 1px solid #d31618;
+    border-left: 1px solid #888888;
+    border-right: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+    margin-top: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.inner > .appraise_left > .appraise_left_box > .appraise_left_ul {
+    width: 1800px;
+    height: 388px;
+    float: left;
+    position: absolute;
+}
+
+.inner > .appraise_left > .appraise_left_box > .appraise_left_ul > li {
+    width: 600px;
+    float: left;
+}
+
+.inner > .appraise_left > .appraise_left_box > .appraise_left_ul > li > img {
+    margin-top: 12px;
+}
+
+.inner > .appraise_left > .appraise_left_box > .hot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("也买酒图片以及预览地址/img/hot1.png") no-repeat;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+}
+
+.inner > .appraise_left > .appraise_left_box > .appraise_left_ul > li > .right_appraise {
+    height: 388px;
+    padding-right: 10px;
+    float: right;
+    width: 365px;
+    position: relative;
+}
+
+.inner > .appraise_left > .appraise_left_box > .appraise_left_ul > li > .right_appraise > h2 {
+    margin: 40px 0;
+    font-size: 25px;
+    color: #888888;
+    font-weight: normal;
+}
+
+.inner > .appraise_left > .appraise_left_box > .appraise_left_ul > li > .right_appraise > .zhanshi {
+    width: 360px;
+    height: 185px;
+    display: inline-block;
+    font-size: 15px;
+    color: #666;
+}
+
+.inner > .appraise_left > .appraise_left_box > .appraise_left_ul > li > .right_appraise > .sales {
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    bottom: 47px;
+    right: 30px;
+    font-size: 13px;
+}
+
+.inner > .appraise_left > .appraise_left_box > .appraise_left_ul > li > .right_appraise > .sales > .red {
+    color: #d31618;
+}
+
+.inner > .appraise_left > .appraise_left_box > .dot {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 270px;
+
+}
+
+.inner > .appraise_left > .appraise_left_box > .dot > li {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #888888;
+    cursor: pointer;
+}
+
+.inner > .appraise_left > .appraise_left_box > .dot > .select_dot {
+    background-color: #d31618;
+}
+
+.inner > .appraise_right {
+    float: right;
+}
+
+.inner > .appraise_right > .appraise_right_top {
+    width: 580px;
+    height: 36px;
+    margin-bottom: 4px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 -36px;
+}
+
+.inner > .appraise_right > .appraise_right_bottom {
+    height: 385px;
+    border-top: 1px solid #d31618;
+    border-bottom: 1px solid #888888;
+    border-left: 1px solid #888888;
+    border-right: 1px solid #888888;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left {
+    float: left;
+    width: 287px;
+    height: 385px;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .tupian {
+    width: 110px;
+    height: 207px;
+    margin: 0 auto;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .goumai {
+    text-align: center;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .goumai > .goumai_top1 {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .goumai > .goumai_top1 > i {
+    font-style: normal;
+    font-size: 13px;
+    color: #666666;
+    /*margin: 15px 0 0 20px;*/
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .goumai > .goumai_top1 > span {
+    width: 60px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    background: #e4393c;
+    color: #f5f5f5;
+    padding: 2px 5px;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .goumai > .goumai_top1 > em {
+    font-size: 15px;
+    color: #d31618;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .goumai > .goumai_top1 > b {
+    font-size: 25px;
+    color: #d31618;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .goumai > .goumai_top > a {
+    font-size: 20px;
+    color: #555;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .goumai > .goumai_top2 {
+    width: 100%;
+    height: 77px;
+    margin-top: 20px;
+    background: #f4f4f0;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_left > .goumai > .goumai_top2 > p {
+    height: 24px;
+    line-height: 24px;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #666666;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right {
+    float: left;
+    width: 291px;
+    height: 385px;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .tupian {
+    width: 110px;
+    height: 207px;
+    margin: 0 auto;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .goumai {
+    text-align: center;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .goumai > .goumai_top1 {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 15px;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .goumai > .goumai_top1 > i {
+    font-style: normal;
+    font-size: 13px;
+    color: #666666;
+    /*margin: 15px 0 0 20px;*/
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .goumai > .goumai_top1 > span {
+    width: 60px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    background: #e4393c;
+    color: #f5f5f5;
+    padding: 2px 5px;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .goumai > .goumai_top1 > em {
+    font-size: 15px;
+    color: #d31618;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .goumai > .goumai_top1 > b {
+    font-size: 25px;
+    color: #d31618;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .goumai > .goumai_top > a {
+    font-size: 20px;
+    color: #555;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .goumai > .goumai_top2 {
+    width: 100%;
+    height: 77px;
+    margin-top: 20px;
+    background: #f4f4f0;
+}
+
+.inner > .appraise_right > .appraise_right_bottom > .appraise_right_right > .goumai > .goumai_top2 > p {
+    height: 24px;
+    line-height: 24px;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #666666;
+}
+
+/*----------------------------------趣味新发现开始------------------------------------------------------------*/
+.inner > .interest_top {
+    height: 38px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 -102px;
+}
+
+.inner > .interest_box {
+    height: 630px;
+    border-top: 1px solid #d31618;
+}
+
+/*-------------------必买排行榜--------------------------*/
+.inner > .interest_box > .ranking {
+    height: 615px;
+    float: left;
+    width: 328px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+
+.inner > .interest_box > .ranking > h1 {
+    color: #fff;
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 45px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 -300px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_left > .falali {
+    float: right;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_right > .falali {
+    float: right;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_left > .falali > li > a {
+    font-size: 17px;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #000000;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_right > .falali > li > a {
+    font-size: 17px;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #000000;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_left > .falali > li > span {
+    font-size: 13px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_right > .falali > li > span {
+    font-size: 13px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_left > .falali > li > em, i {
+    font-style: normal;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_right > .falali > li > em, i {
+    font-style: normal;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_left > .falali > :nth-child(3) {
+    margin-top: 40px;
+    color: #d31618;
+    font-size: 20px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_right > .falali > :nth-child(3) {
+    margin-top: 40px;
+    color: #d31618;
+    font-size: 20px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_right > .falali > :nth-child(4) {
+    color: #666666;
+    font-size: 14px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ranking_top_left > .falali > :nth-child(4) {
+    color: #666666;
+    font-size: 14px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .sanjiao {
+    width: 100%;
+    height: 21px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .sanjiao > a {
+    display: inline-block;
+
+    width: 30px;
+    height: 21px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat -24px -281px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > h1 {
+    background-color: #cccccc;
+    font-size: 24px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ping > li {
+    height: 20px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.inner > .interest_box > .ranking > .ranking_top > .ping > li > a {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 15px;
+    white-space: nowrap;
+    color: #666;
+}
+
+/*----------------发现好货------------------------------------*/
+.inner > .interest_box > .goodhuo {
+    height: 615px;
+    float: left;
+    width: 532px;
+    margin: 0 10px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.inner > .interest_box > .goodhuo > :nth-child(2) {
+    border-bottom: 1px solid #888888;
+}
+
+.inner > .interest_box > .goodhuo > h1 {
+    color: #fff;
+    /*width: 490px;*/
+    height: 45px;
+    background: #a7e1f6;
+    padding: 15px 0 0 40px;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top {
+    width: 100%;
+    height: 277px;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top > .biaoQ {
+    float: left;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top > img {
+    float: left;
+    margin-top: 15px;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top > .goodhuo_left {
+    width: 245px;
+    height: 250px;
+    margin: 30px 0 10px 0;
+    float: left;
+    overflow: hidden;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top > .goodhuo_left > li {
+    font-size: 12px;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top > .goodhuo_left > :nth-child(1) > a {
+    font-size: 16px;
+    color: #666666;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top > .goodhuo_left > :nth-child(3) > span {
+    color: #d31618;
+    font-size: 25px;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top > .goodhuo_left > :nth-child(3) > strong {
+    color: #d31618;
+    font-size: 25px;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top > .tag {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 20px 0 0 20px;
+}
+
+.inner > .interest_box > .goodhuo > .goodhuo_top > .tag > span {
+    width: 100%;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+    font-size: 14px;
+    text-indent: 5px;
+    margin-top: 18px;
+    color: orange;
+    background: url("也买酒图片以及预览地址/img/wine-label-2.png") no-repeat 0 0;
+}
+
+/*-----------------明星推荐------------------------------------*/
+.inner > .interest_box > .minxin {
+    height: 615px;
+    float: left;
+    width: 314px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+
+.inner > .interest_box > .minxin > h1 {
+    color: #fff;
+    /*width: 490px;*/
+    height: 45px;
+    background: #dda0dd;
+    padding: 15px 0 0 40px;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.inner > .interest_box > .minxin > a {
+    display: block;
+    margin: 15px auto;
+    width: 275px;
+    height: 70px;
+    color: #333;
+    position: relative;
+
+}
+
+.inner > .interest_box > .minxin > a > .yuan_tx {
+    width: 68px;
+    height: 68px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+
+.inner > .interest_box > .minxin > a > .yuan_tx > img {
+    width: 68px;
+    border-radius: 50%;
+}
+
+.inner > .interest_box > .minxin > a > span {
+    height: 25px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #666;
+    display: block;
+    position: absolute;
+}
+
+.inner > .interest_box > .minxin > a > .tx_top {
+    top: 5px;
+    left: 70px;
+}
+
+.inner > .interest_box > .minxin > a > .tx_bottom {
+    top: 35px;
+    left: 70px;
+}
+
+.inner > .interest_box > .minxin > .border_a {
+    display: inline-block;
+    border-bottom: 1px dashed #888888;
+    height: 2px;
+    width: 285px;
+    margin-left: 15px;
+    position: absolute;
+    top: 150px;
+}
+
+.inner > .interest_box > .minxin > .brl > .brl_right {
+    float: right;
+    width: 215px;
+    height: 140px;
+    /*font-size: 16px;*/
+    position: relative;
+}
+
+.inner > .interest_box > .minxin > .brl > .brl_right > .brl_right_top > span {
+    font-size: 16px;
+    font-family: "宋体";
+    color: #666666;
+}
+
+.inner > .interest_box > .minxin > .brl > .brl_right > .brl_right_bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.inner > .interest_box > .minxin > .brl > .brl_right > .brl_right_bottom > strong {
+    font-size: 30px;
+}
+
+.inner > .interest_box > .minxin > .brl > .brl_right > .brl_right_bottom > .red {
+    color: #b51d1a;
+}
+
+.inner > .interest_box > .minxin > .brl_1 > img {
+    margin-top: 20px;
+}
+
+
+.inner > .interest_box > .minxin > .brl_1 {
+    position: relative;
+    border-bottom: 1px solid #888888;
+    height: 170px;
+}
+
+.inner > .interest_box > .minxin > .brl_1 > .brl_right {
+    width: 215px;
+    height: 140px;
+    /*font-size: 16px;*/
+    position: absolute;
+    top: 23px;
+    right: 0;
+}
+
+.inner > .interest_box > .minxin > .brl_1 > .brl_right > .brl_right_top > span {
+    font-size: 16px;
+    font-family: "宋体";
+    color: #666666;
+}
+
+.inner > .interest_box > .minxin > .brl_1 > .brl_right > .brl_right_bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.inner > .interest_box > .minxin > .brl_1 > .brl_right > .brl_right_bottom > strong {
+    font-size: 30px;
+}
+
+.inner > .interest_box > .minxin > .brl_1 > .brl_right > .brl_right_bottom > .red {
+    color: #b51d1a;
+}
+
+.inner > .interest_box > .minxin > .tuijian {
+    font-size: 20px;
+    background-color: #f4f4f4;
+    color: #000000;
+    height: 35px;
+    border-bottom: 1px dashed #888888;
+    /*line-height: 40px;*/
+}
+
+.inner > .interest_box > .minxin > .come {
+
+    width: 100%;
+    height: 94px;
+    padding: 3px 3px;
+    color: rgb(102, 102, 102);
+    font-size: 14px;
+    display: block;
+    font-family: 微软雅黑;
+    overflow-wrap: break-word;
+    margin: 0;
+    overflow: hidden;
+    text-decoration: underline;
+}
+
+/*----------也买精品海淘开始----------------*/
+.interestingness {
+    height: 479px;
+}
+
+.interestingness > .interestingness_top {
+    height: 38px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 -102px;
+}
+
+.interestingness > .interestingness_box {
+    border-top: 1px solid #d31618;
+}
+
+.interestingness > .interestingness_box > .interestingness_left {
+    width: 450px;
+    height: 438px;
+    float: left;
+    background: url("也买酒图片以及预览地址/img/3.jpg") no-repeat;
+}
+
+.interestingness > .interestingness_box > .interestingness_right {
+    float: right;
+    width: 740px;
+    height: 446px;
+}
+
+.interestingness > .interestingness_box > .interestingness_right > ul > li {
+    width: 360px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.xph {
+    margin-top: 15px;
+}
+
+.xph > .xph_p {
+    height: 38px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 -208px;
+    position: relative;
+}
+
+.xph > .xph_p > a {
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 -282px;
+    position: absolute;
+    left: 430px;
+    top: 0;
+}
+
+.xph > .xph_box {
+    width: 1200px;
+    height: 250px;
+    overflow: hidden;
+    /*border: 1px solid #000;*/
+}
+
+.xph > .xph_box > .xph_ul_1 {
+    width: 1500px;
+    height: 250px;
+}
+
+.xph > .xph_box > .xph_ul_1 > li {
+    float: left;
+    height: 250px;
+    width: 150px;
+}
+
+.xph > .xph_hua {
+    height: 132px;
+    border-left: 1px solid #ebebe8;
+}
+
+.xph > .xph_hua > .xph_hua_ul > li {
+    float: left;
+    display: block;
+    padding: 10px;
+    width: 218px;
+    height: 110px;
+    border-right: 1px solid #ebebe8;
+    border-bottom: 1px solid #ebebe8;
+    overflow: hidden;
+}
+
+.xph > .xph_hua > .xph_hua_ul > li > a {
+    display: block;
+    width: 220px;
+    height: 110px;
+    overflow: hidden;
+}
+
+.xph > .potCompanion {
+    height: 245px;
+    position: relative;
+}
+
+.xph > .potCompanion > .potCompanion_left {
+    width: 950px;
+    float: left;
+}
+
+.xph > .potCompanion > .potCompanion_left > .potCompanion_left_p {
+    height: 35px;
+    background-color: #f8f8f5;
+    /*margin-right: 5px;*/
+}
+
+.xph > .potCompanion > .potCompanion_left > .potCompanion_left_p > h3 {
+    float: left;
+    width: 360px;
+    height: 34px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 -240px;
+    line-height: 34px;
+}
+
+.xph > .potCompanion > .potCompanion_left > .potCompanion_left_p > .potCompanion_p_right {
+    float: right;
+    width: 74px;
+    height: 20px;
+    padding: 5px 0;
+}
+
+.xph > .potCompanion > .potCompanion_left > .potCompanion_left_p > .potCompanion_p_right > .jiao_left {
+    line-height: 18px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -130px -76px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.xph > .potCompanion > .potCompanion_left > .potCompanion_left_p > .potCompanion_p_right > .yeshu {
+    font-size: 12px;
+    color: #000;
+}
+
+.xph > .potCompanion > .potCompanion_left > .potCompanion_left_p > .potCompanion_p_right > .jiao_right {
+    line-height: 18px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -154px -76px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window {
+    width: 953px;
+    height: 210px;
+    float: left;
+    overflow: hidden;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul {
+    width: 2940px;
+    height: 210px;
+    position: relative;
+    /*background-color: #999;*/
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li {
+    float: left;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > :nth-child(3) {
+    border-right: 0;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl {
+    width: 317px;
+    height: 210px;
+    padding-top: 5px;
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dt {
+    float: left;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > a {
+    font-size: 12px;
+    color: #888888;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    width: 187px;
+    overflow: hidden;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > p {
+    /*font-size: 14px;*/
+    color: #c53f4c;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > p > i {
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > .touXiang {
+    width: 187px;
+    height: 66px;
+    float: right;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > .touXiang > .touXiang_left {
+    float: left;
+    width: 50px;
+    height: 66px;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > .touXiang > .touXiang_left > img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > .touXiang > .touXiang_right {
+    float: right;
+    width: 127px;
+    height: 68px;
+    overflow: hidden;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > .touXiang > .touXiang_right > a {
+    color: #888888;
+    height: 48px;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > .touXiang > .touXiang_right > span {
+    color: white;
+    background-color: #c19e64;
+    height: 12px;
+    line-height: 12px;
+    border-radius: 4px;
+    padding: 2px 0 2px 5px;
+}
+
+.xph > .potCompanion > .potCompanion_left > .window > .window_ul > li > dl > dd > .touXiang > .touXiang_right > span > strong {
+    padding: 2px 3px;
+    background-color: #B58D53;
+    border-radius: 4px;
+}
+
+.xph > .potCompanion > .potCompanion_right {
+    width: 240px;
+    height: 244px;
+    position: absolute;
+    right: 3px;
+}
+
+.xph > .potCompanion > .potCompanion_right > .potCompanion_right_top {
+    width: 238px;
+    height: 34px;
+    background: #f8f8f5 url("也买酒图片以及预览地址/img/title.png") no-repeat 0 -239px;
+    border: none;
+    overflow: hidden;
+}
+
+/*------------进口红酒开始---------------------------------------------------*/
+#footer > .inner {
+    height: 285px;
+}
+
+#footer > .inner > .jinkou {
+    width: 1200px;
+    height: 285px;
+    position: absolute;
+}
+
+.inner > .jinkou > .jinkou_top {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #d31618;
+}
+
+.inner > .jinkou > .jinkou_top > .jinkou_h1 {
+    float: left;
+    width: 420px;
+    height: 34px;
+    background: url("也买酒图片以及预览地址/img/title1.png") no-repeat 0 -384px;
+}
+
+.inner > .jinkou > .jinkou_top > .jk_ul {
+    float: right;
+    height: 20px;
+    padding: 7px 0;
+}
+
+.inner > .jinkou > .jinkou_top > .jk_ul > li {
+    float: left;
+    margin: 3px 0;
+    height: 14px;
+    line-height: 12px;
+    padding: 0 20px;
+    border-right: 1px solid #000;
+}
+
+.inner > .jinkou > .jinkou_top > .jk_ul > li > a {
+    font-size: 12px;
+    color: #5a463d;
+    line-height: 12px;
+    padding-bottom: 2px;
+    /*display: inline-block;*/
+}
+
+.inner > .jinkou > .jinkou_top > .jk_ul > :nth-child(6) {
+    border-right: 0;
+}
+
+.inner > .jinkou > .jinkou_top > .jk_ul > .quanbu {
+    margin: 0;
+    padding: 0 10px 0 30px;
+    height: 20px;
+    border-left: none;
+    line-height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -211px -40px;
+    background-color: #73584A;
+}
+
+.inner > .jinkou > .jinkou_top > .jk_ul > .quanbu > a {
+    color: white;
+}
+
+.inner > .jinkou > .jinkou_left > .jinkou_ul_left {
+    width: 203px;
+    height: 250px;
+    float: left;
+    /*line-height: 250px;*/
+}
+
+.inner > .jinkou > .jinkou_left > .jinkou_ul_left > li {
+    float: left;
+    padding: 4px 0;
+    width: 99px;
+    height: 40px;
+    border: solid 1px #c0ac98;
+    background-color: #d6c9bc;
+    text-align: center;
+    border-left-color: #dfd5ca;
+    border-top-color: #dfd5ca;
+}
+
+.inner > .jinkou > .jinkou_left > .jinkou_ul_left > li > a {
+    display: inline-block;
+    margin: auto;
+    height: 40px;
+}
+
+.inner > .jinkou > .jinkou_box_content {
+    width: 760px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.inner > .jinkou > .jinkou_box_content > .jinkou_ul_content {
+    width: 1520px;
+    height: 250px;
+    position: absolute;
+}
+
+.inner > .jinkou > .jinkou_box_content > .jinkou_ul_content > li {
+    float: left;
+}
+
+.inner > .jinkou > .jinkou_box_content > .jinkou_ol_content {
+    width: 85px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 335px;
+}
+
+.inner > .jinkou > .jinkou_box_content > .jinkou_ol_content > li {
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ffb6c1;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.inner > .jinkou > .jinkou_box_content > .jinkou_ol_content > .jinkou_content {
+    background-color: #d31618;
+}
+
+.inner > .jinkou > .jinkou_right {
+    float: right;
+    width: 235px;
+    height: 250px;
+}
+
+.inner > .jinkou > .jinkou_right > img {
+    float: left;
+    cursor: pointer;
+}
+
+/*--------------------性价比之选--------------------------------------------------*/
+.xjb {
+    height: 655px;
+    position: relative;
+}
+
+.xjb > .xjb_top {
+    width: 963px;
+    height: 32px;
+    float: left;
+    border-bottom: 1px solid #999999;
+    /*background-color: #888888;*/
+}
+
+.xjb > .xjb_top > h3 {
+    float: left;
+    /*float: left;*/
+    display: block;
+    color: rgb(113, 91, 74);
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 30px;
+}
+
+.xjb > .xjb_top > .xjb_top_a {
+    display: block;
+    float: right;
+    margin-top: 4px;
+    width: 60px;
+    height: 22px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat 0 -68px;
+    color: #5a463d;
+    text-align: center;
+    font-weight: 200;
+    line-height: 22px;
+    font-size: 12px;
+}
+.xjb > .xjb_left{
+    height: 325px;
+    width: 200px;
+}
+.xjb > .xjb_left > .xjb_left_ul {
+    float: left;
+    width: 960px;
+    height: 285px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li > ins {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    background: url("也买酒图片以及预览地址/img/icon_promo_8.png") no-repeat -42px -301px;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li {
+    float: left;
+    overflow: hidden;
+    padding: 3px;
+    width: 183px;
+    height: 280px;
+    border: solid 1px transparent;
+    position: relative;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li:hover {
+    border: 1px solid #000;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li > .xjb_img {
+    width: 179px;
+    height: 180px;
+    position: relative;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li > .xjb_img > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li > .ganhong {
+    width: 180px;
+    height: 100px;
+    /*background-color: #999;*/
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div {
+    padding: 5px 15px 5px 15px;
+    height: 60px;
+    background-color: #f4f4f0;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > a {
+    font-size: 12px;
+    color: #5b473d;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > .price {
+    color: #c53f4c;
+    height: 21px;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > .price > strong {
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .sum {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f4f4f0;
+    font-size: 12px;
+    border-top: 1px solid #c2c2c2;
+    padding-left: 10px;
+}
+
+.xjb > .xjb_right {
+    width: 234px;
+    height: 80px;
+    /*background-color: #999;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.xjb > .xjb_right > h4 {
+    width: 243px;
+    height: 34px;
+    background: #f4f4f0 url("也买酒图片以及预览地址/img/title.png") no-repeat 0 -343px;
+    text-indent: -10000px;
+    line-height: 34px;
+    /*border-bottom: 1px solid #999;*/
+}
+
+.xjb > .xjb_right > .xjb_right_ul {
+    border-top: 1px solid #ccc;
+    height: 224px;
+    position: relative;
+}
+
+.xjb > .xjb_right > .xjb_right_ul > li {
+    width: 238px;
+    height: 111px;
+    border-top: 1px solid #999999;
+}
+
+.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_left {
+    width: 80px;
+    height: 100px;
+    padding: 10px 10px 0 10px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > a {
+    color: #333;
+}
+
+.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .shouchu {
+    font-size: 13px;
+    color: #666666;
+    margin: 4px 0;
+}
+
+.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .jiazhi {
+    color: #c53f4c;
+    font-size: 14px;
+}
+
+.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .jiazhi > strong {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_left > i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -60px -70px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+}
+
+/*------------------------------重写代码-----------------------------*/
+.xjb > .xjb_right >.ul_cut{
+    z-index: 10;
+    position: relative;
+}
+.xjb > .xjb_right >.ul_cut>li>.enter_none{
+    height: 40px;
+    width: 238px;
+    background-color: #f5f5f0;
+    font-size: 12px;
+    /*display: none;*/
+}
+.xjb > .xjb_right >.ul_cut>li>.enter_none>span{
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -84px -70px;
+    color: #666;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+    margin: 10px 0 0 7px;
+    vertical-align: middle;
+}
+.xjb > .xjb_right >.ul_cut>li>.enter_none>a{
+    display: block;
+    color: #333;
+    margin: 12px 5px 5px 5px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.xjb > .xjb_right >.ul_cut>li>.leave_display{
+    width: 238px;
+    height: 111px;
+    border-top: 1px solid #999999;
+    display: none;
+}
+
+.xjb > .xjb_right >.ul_cut>li>.leave_display>.leave_left {
+    width: 80px;
+    height: 100px;
+    padding: 10px 10px 0 10px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.xjb > .xjb_right >.ul_cut>li>.leave_display>.leave_right {
+    font-size: 12px;
+    padding-top: 10px;
+
+}
+
+.xjb > .xjb_right >.ul_cut>li>.leave_display>.leave_right > a {
+    color: #333;
+}
+
+.xjb > .xjb_right >.ul_cut>li>.leave_display>.leave_right> .shouchu {
+    font-size: 13px;
+    color: #666666;
+    margin: 4px 0;
+}
+
+.xjb > .xjb_right >.ul_cut>li>.leave_display>.leave_right > .jiazhi {
+    color: #c53f4c;
+    font-size: 14px;
+}
+
+.xjb > .xjb_right >.ul_cut>li>.leave_display>.leave_right > .jiazhi > strong {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.xjb > .xjb_right >.ul_cut>li>.leave_display>.leave_left > i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -60px -70px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------重写代码-----------------------------*/
+
+/*------------------有问题----------------------------------------------------*/
+.fuzhi {
+    height: 735px;
+}
+
+.fuzhi > .fuzhijinkou {
+    height: 35px;
+    /*background-color: #999;*/
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_top {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #d31618;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_top > .jinkou_h1 {
+    float: left;
+    width: 420px;
+    height: 34px;
+    background: url("也买酒图片以及预览地址/img/title_01.png") no-repeat;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_top > .jk_ul {
+    float: right;
+    height: 20px;
+    padding: 7px 0;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_top > .jk_ul > li {
+    float: left;
+    margin: 3px 0;
+    height: 14px;
+    line-height: 12px;
+    padding: 0 20px;
+    border-right: 1px solid #000;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_top > .jk_ul > li > a {
+    font-size: 12px;
+    color: #5a463d;
+    line-height: 12px;
+    padding-bottom: 2px;
+    /*display: inline-block;*/
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_top > .jk_ul > :nth-child(6) {
+    border-right: 0;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_top > .jk_ul > .quanbu {
+    margin: 0;
+    padding: 0 10px 0 30px;
+    height: 20px;
+    border-left: none;
+    line-height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -211px -40px;
+    background-color: #73584A;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_top > .jk_ul > .quanbu > a {
+    color: white;
+}
+
+
+.fuzhi > .fuzhijinkou {
+    height: 580px;
+    position: relative;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_left {
+    height: 250px;
+    position: relative;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_left > .jinkou_ul_left {
+    width: 203px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    /*line-height: 250px;*/
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_left > .jinkou_ul_left > li {
+    float: left;
+    padding: 4px 0;
+    width: 99px;
+    height: 40px;
+    border: solid 1px #c0ac98;
+    background-color: #d6c9bc;
+    text-align: center;
+    border-left-color: #dfd5ca;
+    border-top-color: #dfd5ca;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_left > .jinkou_ul_left > li > a {
+    display: inline-block;
+    margin: auto;
+    height: 40px;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_box_content_1 {
+    width: 760px;
+    height: 250px;
+    /*float: left;*/
+    overflow: hidden;
+    position: absolute;
+    left: 203px;
+    top: 34px;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_box_content_1 > .jinkou_ul_content {
+    width: 3500px;
+    height: 250px;
+    position: absolute;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_box_content_1 > .jinkou_ul_content > li {
+    float: left;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_box_content_1 > .jinkou_ol_content {
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 300px;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_box_content_1 > .jinkou_ol_content > li {
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ffb6c1;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_box_content_1 > .jinkou_ol_content > .jinkou_content {
+    background-color: #d31618;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_right {
+    float: right;
+    width: 235px;
+    height: 250px;
+}
+
+.fuzhi > .fuzhijinkou > .jinkou_right > img {
+    float: left;
+    cursor: pointer;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_right {
+    position: absolute;
+    right: 0;
+    top: 34px;
+    width: 238px;
+}
+
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul {
+    float: left;
+    width: 960px;
+    height: 285px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li > ins {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    background: url("也买酒图片以及预览地址/img/icon_promo_8.png") no-repeat -42px -301px;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li {
+    float: left;
+    overflow: hidden;
+    padding: 3px;
+    width: 183px;
+    height: 280px;
+    border: solid 1px transparent;
+    position: relative;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li:hover {
+    border: 1px solid #000;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li > .xjb_img {
+    width: 179px;
+    height: 180px;
+    position: relative;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li > .xjb_img > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li > .ganhong {
+    width: 180px;
+    height: 100px;
+    /*background-color: #999;*/
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li > .ganhong > .ganhong_div {
+    padding: 5px 15px 5px 15px;
+    height: 60px;
+    background-color: #f4f4f0;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li > .ganhong > .ganhong_div > a {
+    font-size: 12px;
+    color: #5b473d;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li > .ganhong > .ganhong_div > .price {
+    color: #c53f4c;
+    height: 21px;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li > .ganhong > .ganhong_div > .price > strong {
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+.fuzhi > .fuzhijinkou > .xjb_left_ul > li > .ganhong > .sum {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f4f4f0;
+    font-size: 12px;
+    border-top: 1px solid #c2c2c2;
+    padding-left: 10px;
+}
+
+.fuzhi > .img_tu {
+    width: 1200px;
+    height: 154px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+#footer > .liquor {
+    height: 945px;
+
+}
+
+#footer > .liquor > .jinkou {
+    width: 1200px;
+    height: 285px;
+    position: relative;
+}
+
+.liquor > .jinkou > .jinkou_top {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #d31618;
+}
+
+.liquor > .jinkou > .jinkou_top > .jinkou_h1 {
+    float: left;
+    width: 420px;
+    height: 34px;
+    background: url("也买酒图片以及预览地址/img/title_01.png") no-repeat 0 -36px;
+}
+
+.liquor > .jinkou > .jinkou_top > .jk_ul {
+    float: right;
+    height: 20px;
+    padding: 7px 0;
+}
+
+.liquor > .jinkou > .jinkou_top > .jk_ul > li {
+    float: left;
+    margin: 3px 0;
+    height: 14px;
+    line-height: 12px;
+    padding: 0 20px;
+    border-right: 1px solid #000;
+}
+
+.liquor > .jinkou > .jinkou_top > .jk_ul > li > a {
+    font-size: 12px;
+    color: #5a463d;
+    line-height: 12px;
+    padding-bottom: 2px;
+    /*display: inline-block;*/
+}
+
+.liquor > .jinkou > .jinkou_top > .jk_ul > :nth-child(6) {
+    border-right: 0;
+}
+
+.liquor > .jinkou > .jinkou_top > .jk_ul > .quanbu {
+    margin: 0;
+    padding: 0 10px 0 30px;
+    height: 20px;
+    border-left: none;
+    line-height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -211px -40px;
+    background-color: #73584A;
+}
+
+.liquor > .jinkou > .jinkou_top > .jk_ul > .quanbu > a {
+    color: white;
+}
+
+.liquor > .jinkou > .jinkou_left > .jinkou_ul_left {
+    width: 203px;
+    height: 250px;
+    float: left;
+    /*line-height: 250px;*/
+}
+
+.liquor > .jinkou > .jinkou_left > .jinkou_ul_left > li {
+    float: left;
+    padding: 4px 0;
+    width: 99px;
+    height: 40px;
+    border: solid 1px #c0ac98;
+    background-color: #d6c9bc;
+    text-align: center;
+    border-left-color: #dfd5ca;
+    border-top-color: #dfd5ca;
+}
+
+.liquor > .jinkou > .jinkou_left > .jinkou_ul_left > li > a {
+    display: inline-block;
+    margin: auto;
+    height: 40px;
+}
+
+.liquor > .jinkou > .jinkou_box_content_2 {
+    width: 760px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.liquor > .jinkou > .jinkou_box_content_2 > .jinkou_ul_content {
+    width: 1520px;
+    height: 250px;
+    position: absolute;
+}
+
+.liquor > .jinkou > .jinkou_box_content_2 > .jinkou_ul_content > li {
+    float: left;
+}
+
+.liquor > .jinkou > .jinkou_box_content_2 > .jinkou_ol_content {
+    width: 85px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 335px;
+}
+
+.liquor > .jinkou > .jinkou_box_content_2 > .jinkou_ol_content > li {
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ffb6c1;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.liquor > .jinkou > .jinkou_box_content_2 > .jinkou_ol_content > .jinkou_content {
+    background-color: #d31618;
+}
+
+.liquor > .jinkou > .jinkou_right {
+    float: right;
+    width: 235px;
+    height: 250px;
+}
+
+.liquor > .jinkou > .jinkou_right > img {
+    float: left;
+    cursor: pointer;
+}
+
+.liquor>.xjb {
+    height: 335px;
+    position: relative;
+}
+.liquor>.xjb>.xjb{
+    height: 335px;
+}
+.liquor>.xjb > .xjb_top {
+    width: 963px;
+    height: 32px;
+    float: left;
+    border-bottom: 1px solid #999999;
+    /*background-color: #888888;*/
+}
+
+.liquor>.xjb > .xjb_top > h3 {
+    float: left;
+    /*float: left;*/
+    display: block;
+    color: rgb(113, 91, 74);
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 30px;
+}
+
+.liquor>.xjb >.xjb_top > .xjb_top_a {
+    display: block;
+    float: right;
+    margin-top: 4px;
+    width: 60px;
+    height: 22px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat 0 -68px;
+    color: #5a463d;
+    text-align: center;
+    font-weight: 200;
+    line-height: 22px;
+    font-size: 12px;
+}
+.liquor>.xjb > .xjb_left{
+    height: 325px;
+}
+.liquor>.xjb > .xjb_left > .xjb_left_ul {
+    float: left;
+    width: 960px;
+    height: 285px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.liquor>.xjb > .xjb_left > .xjb_left_ul > li > ins {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    background: url("也买酒图片以及预览地址/img/icon_promo_8.png") no-repeat -42px -301px;
+}
+
+.liquor>.xjb > .xjb_left > .xjb_left_ul > li {
+    float: left;
+    overflow: hidden;
+    padding: 3px;
+    width: 183px;
+    height: 280px;
+    border: solid 1px transparent;
+    position: relative;
+}
+
+.liquor>.xjb > .xjb_left > .xjb_left_ul > li:hover {
+    border: 1px solid #000;
+}
+
+.liquor>.xjb > .xjb_left > .xjb_left_ul > li > .xjb_img {
+    width: 179px;
+    height: 180px;
+    position: relative;
+}
+
+.liquor>.xjb > .xjb_left > .xjb_left_ul > li > .xjb_img > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.liquor>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong {
+    width: 180px;
+    height: 100px;
+    /*background-color: #999;*/
+}
+
+.liquor>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div {
+    padding: 5px 15px 5px 15px;
+    height: 60px;
+    background-color: #f4f4f0;
+}
+
+.liquor>.xjb >.xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > a {
+    font-size: 12px;
+    color: #5b473d;
+}
+
+.liquor>.xjb >.xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > .price {
+    color: #c53f4c;
+    height: 21px;
+}
+
+.liquor>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > .price > strong {
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+.liquor>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .sum {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f4f4f0;
+    font-size: 12px;
+    border-top: 1px solid #c2c2c2;
+    padding-left: 10px;
+}
+
+.liquor>.xjb > .xjb_right {
+    width: 234px;
+    height: 80px;
+    /*background-color: #999;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.liquor>.xjb > .xjb_right > h4 {
+    width: 243px;
+    height: 34px;
+    background: #f4f4f0 url("也买酒图片以及预览地址/img/title.png") no-repeat 0 -343px;
+    text-indent: -10000px;
+    line-height: 34px;
+    /*border-bottom: 1px solid #999;*/
+}
+
+.liquor>.xjb > .xjb_right > .xjb_right_ul {
+    border-top: 1px solid #ccc;
+    height: 224px;
+    position: relative;
+}
+
+.liquor>.xjb > .xjb_right > .xjb_right_ul > li {
+    width: 238px;
+    height: 111px;
+    border-top: 1px solid #999999;
+}
+
+.liquor>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_left {
+    width: 80px;
+    height: 100px;
+    padding: 10px 10px 0 10px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.liquor>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.liquor>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > a {
+    color: #333;
+}
+
+.liquor>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .shouchu {
+    font-size: 13px;
+    color: #666666;
+    margin: 4px 0;
+}
+
+.liquor>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .jiazhi {
+    color: #c53f4c;
+    font-size: 14px;
+}
+
+.liquor>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .jiazhi > strong {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.liquor>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_left > i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -60px -70px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+}
+.fuzhi>.fuzhijinkou
+/*--------------------------------------------------*/
+
+.fuzhi>.fuzhijinkou> .xjb_right {
+    width: 234px;
+    height: 80px;
+    /*background-color: #999;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fuzhi>.fuzhijinkou > .xjb_right > h4 {
+    width: 243px;
+    height: 34px;
+    background: #f4f4f0 url("也买酒图片以及预览地址/img/title.png") no-repeat 0 -343px;
+    text-indent: -10000px;
+    line-height: 34px;
+    /*border-bottom: 1px solid #999;*/
+}
+
+.fuzhi>.fuzhijinkou > .xjb_right > .xjb_right_ul {
+    border-top: 1px solid #ccc;
+    height: 113px;
+    position: relative;
+}
+
+.fuzhi>.fuzhijinkou> .xjb_right > .xjb_right_ul > li {
+    width: 238px;
+    height: 111px;
+    border-top: 1px solid #999999;
+}
+
+.fuzhi>.fuzhijinkou > .xjb_right > .xjb_right_ul > li > .xjb_li_left {
+    width: 80px;
+    height: 100px;
+    padding: 10px 10px 0 10px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.fuzhi>.fuzhijinkou> .xjb_right > .xjb_right_ul > li > .xjb_li_right {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.fuzhi>.fuzhijinkou > .xjb_right > .xjb_right_ul > li > .xjb_li_right > a {
+    color: #333;
+}
+
+.fuzhi>.fuzhijinkou > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .shouchu {
+    font-size: 13px;
+    color: #666666;
+    margin: 4px 0;
+}
+
+.fuzhi>.fuzhijinkou> .xjb_right > .xjb_right_ul > li > .xjb_li_right > .jiazhi {
+    color: #c53f4c;
+    font-size: 14px;
+}
+
+.fuzhi>.fuzhijinkou > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .jiazhi > strong {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.fuzhi>.fuzhijinkou> .xjb_right > .xjb_right_ul > li > .xjb_li_left > i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -60px -70px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut{
+    z-index: 10;
+    position: relative;
+}
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.enter_none{
+    height: 40px;
+    width: 238px;
+    background-color: #f5f5f0;
+    font-size: 12px;
+    /*display: none;*/
+}
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.enter_none>span{
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -84px -70px;
+    color: #666;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+    margin: 10px 0 0 7px;
+    vertical-align: middle;
+}
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.enter_none>a{
+    display: block;
+    color: #333;
+    margin: 12px 5px 5px 5px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.leave_display{
+    width: 238px;
+    height: 111px;
+    border-top: 1px solid #999999;
+    display: none;
+}
+
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.leave_display>.leave_left {
+    width: 80px;
+    height: 100px;
+    padding: 10px 10px 0 10px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.leave_display>.leave_right {
+    font-size: 12px;
+    padding-top: 10px;
+
+}
+
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.leave_display>.leave_right > a {
+    color: #333;
+}
+
+.fuzhi>.fuzhijinkou>.xjb_right >.ul_cut>li>.leave_display>.leave_right> .shouchu {
+    font-size: 13px;
+    color: #666666;
+    margin: 4px 0;
+}
+
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.leave_display>.leave_right > .jiazhi {
+    color: #c53f4c;
+    font-size: 14px;
+}
+
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.leave_display>.leave_right > .jiazhi > strong {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.fuzhi>.fuzhijinkou >.xjb_right >.ul_cut>li>.leave_display>.leave_left > i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -60px -70px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+}
+
+/*--------------------------------------------------*/
+
+
+/*-----------------------------------------*/
+.liquor>.xjb >.xjb_right >.ul_cut{
+    z-index: 10;
+    position: relative;
+}
+.liquor>.xjb >.xjb_right >.ul_cut>li>.enter_none{
+    height: 40px;
+    width: 238px;
+    background-color: #f5f5f0;
+    font-size: 12px;
+    /*display: none;*/
+}
+.liquor>.xjb >.xjb_right >.ul_cut>li>.enter_none>span{
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -84px -70px;
+    color: #666;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+    margin: 10px 0 0 7px;
+    vertical-align: middle;
+}
+.liquor>.xjb >.xjb_right >.ul_cut>li>.enter_none>a{
+    display: block;
+    color: #333;
+    margin: 12px 5px 5px 5px;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.liquor>.xjb >.xjb_right >.ul_cut>li>.leave_display{
+    width: 238px;
+    height: 111px;
+    border-top: 1px solid #999999;
+    display: none;
+}
+
+.liquor>.xjb >.xjb_right >.ul_cut>li>.leave_display>.leave_left {
+    width: 80px;
+    height: 100px;
+    padding: 10px 10px 0 10px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.liquor>.xjb >.xjb_right >.ul_cut>li>.leave_display>.leave_right {
+    font-size: 12px;
+    padding-top: 10px;
+
+}
+
+.liquor>.xjb >.xjb_right >.ul_cut>li>.leave_display>.leave_right > a {
+    color: #333;
+}
+
+.liquor>.xjb >.xjb_right >.ul_cut>li>.leave_display>.leave_right> .shouchu {
+    font-size: 13px;
+    color: #666666;
+    margin: 4px 0;
+}
+
+.liquor>.xjb >.xjb_right >.ul_cut>li>.leave_display>.leave_right > .jiazhi {
+    color: #c53f4c;
+    font-size: 14px;
+}
+
+.liquor>.xjb >.xjb_right >.ul_cut>li>.leave_display>.leave_right > .jiazhi > strong {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.liquor>.xjb >.xjb_right >.ul_cut>li>.leave_display>.leave_left > i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -60px -70px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+}
+/*-----------------------------------------*/
+
+
+
+/*--------------------------陈年老酒----------------------------------*/
+#footer > .chennian {
+    height: 945px;
+
+}
+
+#footer > .chennian > .jinkou {
+    width: 1200px;
+    height: 285px;
+    position: relative;
+}
+
+.chennian > .jinkou > .jinkou_top {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #d31618;
+}
+
+.chennian > .jinkou > .jinkou_top > .jinkou_h1 {
+    float: left;
+    width: 420px;
+    height: 34px;
+    background: url("也买酒图片以及预览地址/img/title_01.png") no-repeat 0 -68px;
+}
+
+.chennian > .jinkou > .jinkou_top > .jk_ul {
+    float: right;
+    height: 20px;
+    padding: 7px 0;
+}
+
+.chennian > .jinkou > .jinkou_top > .jk_ul > li {
+    float: left;
+    margin: 3px 0;
+    height: 14px;
+    line-height: 12px;
+    padding: 0 20px;
+    border-right: 1px solid #000;
+}
+
+.chennian > .jinkou > .jinkou_top > .jk_ul > li > a {
+    font-size: 12px;
+    color: #5a463d;
+    line-height: 12px;
+    padding-bottom: 2px;
+    /*display: inline-block;*/
+}
+
+.chennian > .jinkou > .jinkou_top > .jk_ul > :nth-child(6) {
+    border-right: 0;
+}
+
+.chennian > .jinkou > .jinkou_top > .jk_ul > .quanbu {
+    margin: 0;
+    padding: 0 10px 0 30px;
+    height: 20px;
+    border-left: none;
+    line-height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -211px -40px;
+    background-color: #73584A;
+}
+
+.chennian > .jinkou > .jinkou_top > .jk_ul > .quanbu > a {
+    color: white;
+}
+
+.chennian > .jinkou > .jinkou_left > .jinkou_ul_left {
+    width: 203px;
+    height: 250px;
+    float: left;
+    /*line-height: 250px;*/
+}
+
+.chennian > .jinkou > .jinkou_left > .jinkou_ul_left > li {
+    float: left;
+    padding: 4px 0;
+    width: 99px;
+    height: 40px;
+    border: solid 1px #c0ac98;
+    background-color: #d6c9bc;
+    text-align: center;
+    border-left-color: #dfd5ca;
+    border-top-color: #dfd5ca;
+}
+
+.chennian > .jinkou > .jinkou_left > .jinkou_ul_left > li > a {
+    display: inline-block;
+    margin: auto;
+    height: 40px;
+}
+
+.chennian > .jinkou > .jinkou_box_content_3 {
+    width: 760px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.chennian > .jinkou > .jinkou_box_content_3 > .jinkou_ul_content {
+    width: 1520px;
+    height: 250px;
+    position: absolute;
+}
+
+.chennian > .jinkou > .jinkou_box_content_3 > .jinkou_ul_content > li {
+    float: left;
+}
+
+.chennian > .jinkou > .jinkou_box_content_3 > .jinkou_ol_content {
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 275px;
+}
+
+.chennian > .jinkou > .jinkou_box_content_3 > .jinkou_ol_content > li {
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ffb6c1;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.chennian > .jinkou > .jinkou_box_content_3 > .jinkou_ol_content > .jinkou_content {
+    background-color: #d31618;
+}
+
+.chennian > .jinkou > .jinkou_right {
+    float: right;
+    width: 235px;
+    height: 250px;
+}
+
+.chennian > .jinkou > .jinkou_right > img {
+    float: left;
+    cursor: pointer;
+}
+
+.chennian>.xjb {
+    height: 335px;
+    position: relative;
+}
+.chennian>.xjb>.xjb{
+    height: 335px;
+}
+.chennian>.xjb > .xjb_top {
+    width: 963px;
+    height: 32px;
+    float: left;
+    border-bottom: 1px solid #999999;
+    /*background-color: #888888;*/
+}
+
+.chennian>.xjb > .xjb_top > h3 {
+    float: left;
+    /*float: left;*/
+    display: block;
+    color: rgb(113, 91, 74);
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 30px;
+}
+
+.chennian>.xjb >.xjb_top > .xjb_top_a {
+    display: block;
+    float: right;
+    margin-top: 4px;
+    width: 60px;
+    height: 22px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat 0 -68px;
+    color: #5a463d;
+    text-align: center;
+    font-weight: 200;
+    line-height: 22px;
+    font-size: 12px;
+}
+.chennian>.xjb > .xjb_left{
+    height: 325px;
+}
+.chennian>.xjb > .xjb_left > .xjb_left_ul {
+    float: left;
+    width: 960px;
+    height: 285px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.chennian>.xjb > .xjb_left > .xjb_left_ul > li > ins {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    background: url("也买酒图片以及预览地址/img/icon_promo_8.png") no-repeat -42px -301px;
+}
+
+.chennian>.xjb > .xjb_left > .xjb_left_ul > li {
+    float: left;
+    overflow: hidden;
+    padding: 3px;
+    width: 183px;
+    height: 280px;
+    border: solid 1px transparent;
+    position: relative;
+}
+
+.chennian>.xjb > .xjb_left > .xjb_left_ul > li:hover {
+    border: 1px solid #000;
+}
+
+.chennian>.xjb > .xjb_left > .xjb_left_ul > li > .xjb_img {
+    width: 179px;
+    height: 180px;
+    position: relative;
+}
+
+.chennian>.xjb > .xjb_left > .xjb_left_ul > li > .xjb_img > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.chennian>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong {
+    width: 180px;
+    height: 100px;
+    /*background-color: #999;*/
+}
+
+.chennian>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div {
+    padding: 5px 15px 5px 15px;
+    height: 60px;
+    background-color: #f4f4f0;
+}
+
+.chennian>.xjb >.xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > a {
+    font-size: 12px;
+    color: #5b473d;
+}
+
+.chennian>.xjb >.xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > .price {
+    color: #c53f4c;
+    height: 21px;
+}
+
+.chennian>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > .price > strong {
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+.chennian>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .sum {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f4f4f0;
+    font-size: 12px;
+    border-top: 1px solid #c2c2c2;
+    padding-left: 10px;
+}
+
+.chennian>.xjb > .xjb_right {
+    width: 234px;
+    height: 80px;
+    /*background-color: #999;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.chennian>.xjb > .xjb_right > h4 {
+    width: 243px;
+    height: 34px;
+    background: #f4f4f0 url("也买酒图片以及预览地址/img/title.png") no-repeat 0 -343px;
+    text-indent: -10000px;
+    line-height: 34px;
+    /*border-bottom: 1px solid #999;*/
+}
+
+.chennian>.xjb > .xjb_right > .xjb_right_ul {
+    border-top: 1px solid #ccc;
+    height: 224px;
+    position: relative;
+}
+
+.chennian>.xjb > .xjb_right > .xjb_right_ul > li {
+    width: 238px;
+    height: 111px;
+    border-top: 1px solid #999999;
+}
+
+.chennian>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_left {
+    width: 80px;
+    height: 100px;
+    padding: 10px 10px 0 10px;
+    display: block;
+    float: left;
+    position: relative;
+}
+
+.chennian>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right {
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.chennian>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > a {
+    color: #333;
+}
+
+.chennian>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .shouchu {
+    font-size: 13px;
+    color: #666666;
+    margin: 4px 0;
+}
+
+.chennian>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .jiazhi {
+    color: #c53f4c;
+    font-size: 14px;
+}
+
+.chennian>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_right > .jiazhi > strong {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.chennian>.xjb > .xjb_right > .xjb_right_ul > li > .xjb_li_left > i {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    display: block;
+    padding: 0 4px 0 0;
+    width: 20px;
+    height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -60px -70px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    float: left;
+}
+
+
+/*-----------------------------酒具开始-----------------------------------------------------------*/
+
+#footer > .wineSet {
+    height: 588px;
+
+}
+
+#footer > .wineSet > .jinkou {
+    width: 1200px;
+    height: 285px;
+    position: relative;
+}
+
+.wineSet > .jinkou > .jinkou_top {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px solid #d31618;
+}
+
+.wineSet > .jinkou > .jinkou_top > .jinkou_h1 {
+    float: left;
+    width: 420px;
+    height: 34px;
+    background: url("也买酒图片以及预览地址/img/title_01.png") no-repeat 0 -100px;
+}
+
+.wineSet > .jinkou > .jinkou_top > .jk_ul {
+    float: right;
+    height: 20px;
+    padding: 7px 0;
+}
+
+.wineSet > .jinkou > .jinkou_top > .jk_ul > li {
+    float: left;
+    margin: 3px 0;
+    height: 14px;
+    line-height: 12px;
+    padding: 0 20px;
+    border-right: 1px solid #000;
+}
+
+.wineSet > .jinkou > .jinkou_top > .jk_ul > li > a {
+    font-size: 12px;
+    color: #5a463d;
+    line-height: 12px;
+    padding-bottom: 2px;
+    /*display: inline-block;*/
+}
+
+.wineSet > .jinkou > .jinkou_top > .jk_ul > :nth-child(6) {
+    border-right: 0;
+}
+
+.wineSet > .jinkou > .jinkou_top > .jk_ul > .quanbu {
+    margin: 0;
+    padding: 0 10px 0 30px;
+    height: 20px;
+    border-left: none;
+    line-height: 20px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat -211px -40px;
+    background-color: #73584A;
+}
+
+.wineSet > .jinkou > .jinkou_top > .jk_ul > .quanbu > a {
+    color: white;
+}
+
+.wineSet > .jinkou > .jinkou_left > .jinkou_ul_left {
+    width: 203px;
+    height: 250px;
+    float: left;
+    /*line-height: 250px;*/
+}
+
+.wineSet > .jinkou > .jinkou_left > .jinkou_ul_left > li {
+    float: left;
+    padding: 4px 0;
+    width: 99px;
+    height: 40px;
+    border: solid 1px #c0ac98;
+    background-color: #d6c9bc;
+    text-align: center;
+    border-left-color: #dfd5ca;
+    border-top-color: #dfd5ca;
+}
+
+.wineSet > .jinkou > .jinkou_left > .jinkou_ul_left > li > a {
+    display: inline-block;
+    margin: auto;
+    height: 40px;
+}
+
+.wineSet > .jinkou > .jinkou_box_content_4 {
+    width: 760px;
+    height: 250px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.wineSet > .jinkou > .jinkou_box_content_4 > .jinkou_ul_content {
+    width: 1520px;
+    height: 250px;
+    position: absolute;
+}
+
+.wineSet > .jinkou > .jinkou_box_content_4 > .jinkou_ul_content > li {
+    float: left;
+}
+
+.wineSet > .jinkou > .jinkou_box_content_4 > .jinkou_ol_content {
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    bottom: 20px;
+    left: 335px;
+}
+
+.wineSet > .jinkou > .jinkou_box_content_4 > .jinkou_ol_content > li {
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ffb6c1;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.wineSet > .jinkou > .jinkou_box_content_4 > .jinkou_ol_content > .jinkou_content {
+    background-color: #d31618;
+}
+
+.wineSet > .jinkou > .jinkou_right {
+    float: right;
+    width: 235px;
+    height: 250px;
+}
+
+.wineSet > .jinkou > .jinkou_right > img {
+    float: left;
+    cursor: pointer;
+}
+
+.wineSet>.xjb {
+    float: left;
+    width: 960px;
+    height: 300px;
+    position: relative;
+}
+.wineSet>.xjb>.xjb{
+    height: 335px;
+}
+.wineSet>.xjb > .xjb_top {
+    width: 963px;
+    height: 32px;
+    float: left;
+    border-bottom: 1px solid #999999;
+    /*background-color: #888888;*/
+}
+
+.wineSet>.xjb > .xjb_top > h3 {
+    float: left;
+    /*float: left;*/
+    display: block;
+    color: rgb(113, 91, 74);
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 30px;
+}
+
+.wineSet>.xjb >.xjb_top > .xjb_top_a {
+    display: block;
+    float: right;
+    margin-top: 4px;
+    width: 60px;
+    height: 22px;
+    background: url("也买酒图片以及预览地址/img/sprite.png") no-repeat 0 -68px;
+    color: #5a463d;
+    text-align: center;
+    font-weight: 200;
+    line-height: 22px;
+    font-size: 12px;
+}
+.wineSet>.xjb > .xjb_left{
+    height: 325px;
+}
+.wineSet>.xjb > .xjb_left > .xjb_left_ul {
+    float: left;
+    width: 960px;
+    height: 285px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.wineSet>.xjb > .xjb_left > .xjb_left_ul > li > ins {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    background: url("也买酒图片以及预览地址/img/icon_promo_8.png") no-repeat -42px -301px;
+}
+
+.wineSet>.xjb > .xjb_left > .xjb_left_ul > li {
+    float: left;
+    overflow: hidden;
+    padding: 3px;
+    width: 183px;
+    height: 280px;
+    border: solid 1px transparent;
+    position: relative;
+}
+
+.wineSet>.xjb > .xjb_left > .xjb_left_ul > li:hover {
+    border: 1px solid #000;
+}
+
+.wineSet>.xjb > .xjb_left > .xjb_left_ul > li > .xjb_img {
+    width: 179px;
+    height: 180px;
+    position: relative;
+}
+
+.wineSet>.xjb > .xjb_left > .xjb_left_ul > li > .xjb_img > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.wineSet>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong {
+    width: 180px;
+    height: 100px;
+    /*background-color: #999;*/
+}
+
+.wineSet>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div {
+    padding: 5px 15px 5px 15px;
+    height: 60px;
+    background-color: #f4f4f0;
+}
+
+.wineSet>.xjb >.xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > a {
+    font-size: 12px;
+    color: #5b473d;
+}
+
+.wineSet>.xjb >.xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > .price {
+    color: #c53f4c;
+    height: 21px;
+}
+
+.wineSet>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .ganhong_div > .price > strong {
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+.wineSet>.xjb > .xjb_left > .xjb_left_ul > li > .ganhong > .sum {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f4f4f0;
+    font-size: 12px;
+    border-top: 1px solid #c2c2c2;
+    padding-left: 10px;
+}
+
+.wineSet>.xjb > .xjb_right {
+    width: 234px;
+    height: 80px;
+    /*background-color: #999;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*----------------------------------------页脚部分内容---------------------------------*/
+
+#foot_1{
+    width: 100%;
+    height: 451px;
+    background: #e8e8e8;
+    margin: 30px auto 0;
+    font-size: 12px;
+}
+
+.foot_1_title{
+    width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+}
+.foot_1_title_1{
+    width: 1200px;
+    height: 91px;
+    padding: 30px 0 0 0;
+    border-bottom: 1px solid #d3161b;
+
+}
+.foot_1_title_1>ul{
+    width: 1200px;
+    margin: 0 auto;
+    height: 40px;
+
+}
+.foot_1_title_1>ul>li{
+    float: left;
+    margin: 20px 0 0 15px;
+    width: 180px;
+}
+
+.foot_1_title_1>ul>li:nth-child(1)>h2{
+    width: 240px;
+    height: 70px;
+    font-size: 30px;
+    color: #d3161b;
+    font-weight: normal;
+    margin-left: 0;
+    float: left;
+    text-indent: 10px;
+}
+.foot_1_title_1>ul>li>a{
+    margin: 5px  0 0 0 ;
+    height: 40px;
+    display: block;
+    float: left;
+}
+.foot_1_title_1>ul>li>a>h3{
+    font-size: 20px;
+    color: #d3161b;
+    line-height: 40px;
+    text-indent: 50px;
+}
+.foot_1_title_1>ul>li:nth-child(2)>a{
+    background: url("也买酒图片以及预览地址/img/icon2.png") no-repeat;
+    background-position: -109px 0;
+}
+
+.foot_1_title_1>ul>li:nth-child(3)>a{
+    background: url("也买酒图片以及预览地址/img/icon2.png") no-repeat;
+    background-position: -109px -38px;
+}
+.foot_1_title_1>ul>li:nth-child(4)>a{
+    background: url("也买酒图片以及预览地址/img/icon2.png") no-repeat;
+    background-position: -109px -76px;
+}
+.foot_1_title_1>ul>li:nth-child(5)>a{
+    background: url("也买酒图片以及预览地址/img/icon2.png") no-repeat;
+    background-position: -109px -114px;
+}
+.foot_1_title_1>ul>li:nth-child(6)>a{
+    background: url("也买酒图片以及预览地址/img/icon2.png") no-repeat;
+    background-position: -109px -152px;
+}
+/*foot——sec*/
+.foot_1_title_2{
+    width: 960px;
+    height: 270px;
+    margin: 20px 0 0 0;
+    float: left;
+}
+.foot_1_title_2>ul>li{
+    float: left;
+    margin: 0 0 0 45px;
+}
+.foot_1_title_2>ul>li>h3{
+    color: #666;
+
+}
+.foot_1_title_2>ul>li:nth-child(1){
+    margin: 0;
+}
+.foot_1_title_2>ul>li:last-child{
+    width: 170px;
+}
+.foot_1_title_2>ul>li>p{
+    margin: 20px 0 0 0;
+}
+.foot_1_title_2>ul>li>p>a{
+    display: block;
+    color: #777;
+    margin: 5px 0 0 0;
+}
+.foot_1_title_2>ul>li>p>a:hover{
+    text-decoration: underline;
+}
+
+.foot_1_title_2 .foot_weixin{
+    margin: 0;
+    background: url("也买酒图片以及预览地址/img/icon2.png") no-repeat 0 -196px;
+    height: 99px;
+}
+
+.foot_1_title_3{
+    margin: 20px 0 0 0;
+    width: 240px;
+    height: 270px;
+    float: left;
+    background: url("也买酒图片以及预览地址/img/QQ图片20170302105112.png") no-repeat;
+}
+.foot_2{
+    width: 1200px;
+    height: 202px;
+    background: url("也买酒图片以及预览地址/img/QQ图片20170302105736.png") no-repeat;
+    margin:0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
